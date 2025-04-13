@@ -74,9 +74,21 @@
 <section id="contact">
     <h2>Contact</h2>
     <p>Intéressé·e par une collaboration ? Discutons !</p>
-    <p>Email : <a href="mailto:tonemail@protonmail.com">tonemail@protonmail.com</a></p>
-    <p>LinkedIn | GitHub</p>
+
+    <form action="https://formspree.io/f/mdkebjyl" method="POST">
+        <label for="name">Nom</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
 </section>
+
 
 <!-- Footer -->
 <footer>
