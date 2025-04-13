@@ -1,0 +1,11 @@
+# IntelliJ
+.idea/
+*.iml
+
+# System
+.DS_Store
+Thumbs.db
+
+# Node (si tu ajoutes du JS ou un build plus tard)
+node_modules/
+dist/
