@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Services</title>
+    <title>Contacts</title>
     <link rel="stylesheet" href="../styles/index.css">
 </head>
 
+<body>
 <!-- Header -->
 <header>
-    <h1>Services</h1>
+    <h1>Contact</h1>
     <nav>
         <ul>
             <li><a href="index.html">Acceuil</a></li>
@@ -21,28 +22,34 @@
     </nav>
 </header>
 
-<body>
 <!-- Hero Section -->
 <section id="hero">
     <h2>Développeur Backend & Expert Linux Freelance</h2>
     <p>J’aide les entreprises à construire, déployer et intégrer leurs applications web.</p>
-    <a href="contact.html" class="btn">Travaillons ensemble</a>
 </section>
 
-<!-- Services -->
-<section id="services">
-    <h2>Mes services</h2>
-    <ul>
-        <li>Développement backend/API</li>
-        <li>CI/CD et automatisation</li>
-        <li>Infrastructure as Code (Terraform, Ansible)</li>
-        <li>Déploiement Kubernetes / Cloud</li>
-    </ul>
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Intéressé·e par une collaboration ? Discutons !</p>
+
+    <form action="https://formspree.io/f/mdkebjyl" method="POST">
+        <label for="name">Nom</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
 </section>
 
+<!-- Footer -->
 <footer>
     <p>&copy; 2025 Etienne MEQUECIN. Tous droits réservés.</p>
 </footer>
-
 </body>
 </html>
